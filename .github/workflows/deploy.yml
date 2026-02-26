@@ -33,11 +33,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      # SPA fallback: GitHub Pages serves 404.html for unknown paths,
-      # so we copy index.html to 404.html so React Router handles routing.
-      - name: Copy index.html to 404.html for SPA routing
-        run: cp dist/index.html dist/404.html
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
