@@ -14,7 +14,7 @@ if (!rootElement) {
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/cooling-the-bern">
         <App />
       </BrowserRouter>
     </HelmetProvider>
