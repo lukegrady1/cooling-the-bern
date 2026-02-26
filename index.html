@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script>
+      // Restore path from 404.html redirect (GitHub Pages SPA routing)
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+        var search = location.search;
+        if (search.indexOf('?p=') === 0 || search.indexOf('&p=') > -1) {
+          var params = search.slice(1).split('&').reduce(function (p, s) {
+            var r = s.split('='); p[r[0]] = r.slice(1).join('=').replace(/~and~/g, '&'); return p;
+          }, {});
+          if (params.p !== undefined) {
+            history.replaceState(
+              null, null,
+              location.pathname.slice(0, -1) + (params.p || '/') +
+              (params.q ? '?' + params.q : '') + location.hash
+            );
+          }
+        }
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0A2342" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;0,800;1,300&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cooling The Bern Air Conditioning LLC | Central Florida HVAC Experts</title>
+    <script type="module" crossorigin src="/cooling-the-bern/assets/index-18C9OjUn.js"></script>
+    <link rel="stylesheet" crossorigin href="/cooling-the-bern/assets/index-DeaEN3b0.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
