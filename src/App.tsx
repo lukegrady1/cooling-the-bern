@@ -1,7 +1,15 @@
-import React, { Suspense } from 'react'
+import React, { Suspense, useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import Layout from './components/layout/Layout'
+
+const ScrollToTop: React.FC = () => {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+  }, [pathname])
+  return null
+}
 
 // Lazy loaded pages for optimal performance
 const Home = React.lazy(() => import('./pages/Home'))
@@ -32,6 +40,7 @@ const App: React.FC = () => {
 
   return (
     <Layout>
+      <ScrollToTop />
       <AnimatePresence mode="wait">
         <Suspense fallback={<PageLoader />}>
           <Routes location={location} key={location.pathname}>

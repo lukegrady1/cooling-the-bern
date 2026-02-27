@@ -52,8 +52,8 @@ const CTAStrip: React.FC<CTAStripProps> = ({
               ariaLabel="Get a free HVAC estimate"
             />
             <Button
-              label="Call (407) 555-BERN"
-              href="tel:+14075552376"
+              label="Call (407) 308-9947"
+              href="tel:+14073089947"
               variant="outlined"
               size="lg"
               ariaLabel="Call us now"

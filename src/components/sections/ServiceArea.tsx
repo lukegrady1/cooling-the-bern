@@ -89,8 +89,8 @@ const ServiceAreaSection: React.FC = () => {
               <p className="font-montserrat font-700 text-dark text-sm mb-1">Not sure if we cover your area?</p>
               <p className="font-inter text-slate text-sm">
                 Call us at{' '}
-                <a href="tel:+14075552376" className="text-sky-brand hover:text-navy font-semibold transition-colors">
-                  (407) 555-BERN
+                <a href="tel:+14073089947" className="text-sky-brand hover:text-navy font-semibold transition-colors">
+                  (407) 308-9947
                 </a>
                 {' '}and we'll let you know right away.
               </p>

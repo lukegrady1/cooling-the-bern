@@ -14,7 +14,7 @@ const homeSchema = {
   name: 'Cooling The Bern Air Conditioning LLC',
   description: 'Professional HVAC repair, installation, and maintenance services in Kissimmee and Central Florida',
   url: 'https://coolingthebern.com',
-  telephone: '+14075550000',
+  telephone: '+14073089947',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Kissimmee',
@@ -40,7 +40,7 @@ const Home: React.FC = () => {
     <>
       <SEOHead
         title="Cooling The Bern Air Conditioning LLC | Central Florida HVAC Experts | Kissimmee"
-        description="Trusted HVAC repair, installation & maintenance in Kissimmee, Orlando & Central Florida. 12+ years experience. Same-day service available. Call (407) 555-BERN."
+        description="Trusted HVAC repair, installation & maintenance in Kissimmee, Orlando & Central Florida. 12+ years experience. Same-day service available. Call (407) 308-9947."
         canonical="https://coolingthebern.com/"
         schemaMarkup={homeSchema}
       />

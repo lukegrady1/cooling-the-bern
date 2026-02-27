@@ -74,7 +74,7 @@ const Services: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button label="Get Free Estimate" to="/free-estimate" variant="primary" ariaLabel="Request a free estimate" />
-              <Button label="Call Us Now" href="tel:+14075552376" variant="secondary" ariaLabel="Call Cooling The Bern" />
+              <Button label="Call Us Now" href="tel:+14073089947" variant="secondary" ariaLabel="Call Cooling The Bern" />
             </div>
           </div>
         </div>

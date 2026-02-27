@@ -11,7 +11,7 @@ const MobileCTABar: React.FC = () => {
   return (
     <div className="mobile-cta-bar md:hidden" role="navigation" aria-label="Quick contact actions">
       <a
-        href="tel:+14075552376"
+        href="tel:+14073089947"
         className="flex-1 flex items-center justify-center gap-2 bg-navy text-white font-montserrat font-semibold text-sm py-3 rounded-lg transition-colors hover:bg-navy-light"
         aria-label="Call Cooling The Bern now"
       >

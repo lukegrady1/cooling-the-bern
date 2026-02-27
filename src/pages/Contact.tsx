@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
     <>
       <SEOHead
         title="Contact Us | Cooling The Bern Air Conditioning LLC | Kissimmee, FL"
-        description="Contact Cooling The Bern for HVAC service in Kissimmee & Central Florida. Call (407) 555-BERN or send a message. Mon–Fri 7AM–6PM."
+        description="Contact Cooling The Bern for HVAC service in Kissimmee & Central Florida. Call (407) 308-9947 or send a message. Mon–Fri 7AM–6PM."
         canonical="https://coolingthebern.com/contact"
       />
 
@@ -88,8 +88,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-montserrat font-700 text-dark text-sm mb-0.5">Phone</p>
-                    <a href="tel:+14075552376" className="font-inter text-sky-brand hover:text-navy transition-colors font-medium">
-                      (407) 555-BERN
+                    <a href="tel:+14073089947" className="font-inter text-sky-brand hover:text-navy transition-colors font-medium">
+                      (407) 308-9947
                     </a>
                   </div>
                 </div>

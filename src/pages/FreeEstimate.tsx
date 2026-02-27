@@ -101,8 +101,8 @@ const FreeEstimate: React.FC = () => {
                 Thank you! We've received your estimate request and will reach out to you within a few hours during business hours (Mon–Fri, 7 AM – 6 PM).
               </p>
               <p className="font-montserrat font-600 text-dark text-sm mb-1">Need immediate assistance?</p>
-              <a href="tel:+14075552376" className="text-sky-brand hover:text-navy font-montserrat font-700 transition-colors">
-                Call (407) 555-BERN
+              <a href="tel:+14073089947" className="text-sky-brand hover:text-navy font-montserrat font-700 transition-colors">
+                Call (407) 308-9947
               </a>
               <div className="mt-8">
                 <button
